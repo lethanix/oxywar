@@ -1,0 +1,15 @@
+[package]
+name = "oxywar"
+version = "0.1.0"
+authors = ["Louis C. Murguía <louiscmm@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dwarrs = { path = "../dwarrs" }
+oxychem = { path = "../oxychem" }
+indicatif = "0.16.0"
+csv = "1.1.6"
+colored = "2"
+open = "1"
