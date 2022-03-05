@@ -7,8 +7,8 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-dwarrs = { path = "../dwarrs" }
-oxychem = { path = "../oxychem" }
+dwarrs = { git = "https://github.com/lethanix/dwarrs.git" }
+oxychem = { git = "https://github.com/lethanix/oxychem.git" }
 indicatif = "0.16.0"
 csv = "1.1.6"
 colored = "2"
